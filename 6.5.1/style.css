@@ -1,0 +1,131 @@
+body {
+   background: url(images/1.jpg); text-shadow: #FFFFFF 10px 10px 10px;
+}
+p:first-letter {
+  color: #DC143C; font-size: 120%; 
+}
+span.a {
+   color: #FFFF00; font-size: 200%;
+}
+div {border-radius: 10px;
+}
+div[table] {
+   width: 700px; height: 100px; margin: 0; text-align: center; float: left; 
+}
+.fixed { position: fixed; opacity: 0.9;
+}
+table { border-spacing: 0;
+}
+td { margin: 0; padding: 0;
+}
+.mm {
+   width: 100px; height: 100px; margin: 0;
+}
+.mm1 {
+   width: 200px; height: 100px; margin: 0;
+}
+img {
+   width: 40px; height: 40px; margin: 10px;
+}
+img[alt="lb"] { background: #DC143C;
+}
+img.a {
+   width: 80px; height: 80px; margin: 10px;
+}
+img.b {
+   width: 60px; height: 30px; margin: 10px;
+}
+img.c {
+   width: 120px; height: 120px; margin: 10px;
+}
+img.d {
+   width: 120px; height: 60px; margin: 10px;
+}
+iframe {
+   margin: 10px; overflow: auto;
+}
+.menu {
+  float: left; width: 100px; height: 400px; margin: 0; text-align: center;
+}
+#menu2 {
+  float: left; width: 200px; height: 400px; margin: 0; text-align: center;
+}
+.blocks {
+  float: left; width: 100%; height: 100%; margin: 0; text-align: center;
+}
+.ss {
+  background: #FFC0CB; 
+}
+.ps {
+  background: #00FFFF; 
+}
+.vh {
+  background: #FFA500;
+}
+.fo {
+  background: #FFFF00;
+}
+.game {
+  background: #00FF00;
+}
+.news {
+  background: #F0FFF0;
+}
+.ss a {
+  color: #4B0082;
+}
+.vh a {
+  color: #A52A2A;
+}
+.fo a{
+  color: #FF4500
+}
+.game a{
+  color: #006400;
+}
+.news a{
+  color: #DAA520 ;
+}
+.what {
+  color: #FFFFFF; background: #000000;
+}
+a{ color: #008000; text-decoration: none;
+}
+a:visited { color: #800080;
+} 
+a:hover { color: #800000; text-decoration: underline;
+}
+
+#alt {
+  position: fixed;
+  opacity: 0.8;
+  bottom: 0;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  background: gray;
+  border-radius: 100px;
+}
+#alt p:first-letter {
+  height: 30px;
+  padding-left: 10px;
+}
+.dot {
+  border-bottom: 2px dashed white;
+  text-decoration: none;
+  background: url(favicon.jpg) no-repeat 0 5px; 
+  padding-left: 15px;
+ -webkit-transition: 5s linear;
+     -moz-transition: 5s linear;
+     -o-transition: 5s linear;
+     transition: 5s linear;
+}
+.dot:visited {
+  color: white;
+}
+.dot:hover {
+  color: green;
+}
+#mar{
+  margin-bottom: 150px;
+}
